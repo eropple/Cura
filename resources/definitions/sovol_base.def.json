@@ -7,6 +7,7 @@
         "author": "ed3d.net",
         "manufacturer": "Sovol 3D",
         "file_formats": "text/x-gcode",
+        "first_start_actions": ["MachineSettingsAction"],
         
         "machine_extruder_trains": {
             "0": "sovol_base_extruder_0"
@@ -18,8 +19,7 @@
         "variants_name": "Nozzle Size",
 
         "preferred_variant_name": "0.4mm Nozzle",
-        "preferred_quality_type": "standard",
-        "preferred_material": "generic_pla"
+        "preferred_quality_type": "standard"
     },
 
     "overrides": {
