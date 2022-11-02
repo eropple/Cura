@@ -4,22 +4,11 @@
     "inherits": "sovol_base",
     "metadata": {
         "visible": true,
-        "author": "ed3d.net",
-        "manufacturer": "Sovol 3D",
-        "file_formats": "text/x-gcode",
-        "has_variants": true,
-        "has_machine_quality": true,
-        "preferred_quality_type": "standard",
-        "preferred_variant_name": "0.4mm Nozzle",
-        "preferred_material": "generic_pla",
-        "machine_extruder_trains": {
-            "0": "SV05_extruder_0"
-        }
+        "quality_definition": "sovol_base"
     },
 
     "overrides": {
         "machine_name": { "default_value": "SV05" },
-        "quality_definition": "sovol_base",
 
         "machine_width": { "default_value": 220 },
         "machine_depth": { "default_value": 220 },
@@ -33,7 +22,7 @@
             ]
         },
     
-        "gantry_height": { "value": 33 },
+        "gantry_height": { "value": 25 },
         "retraction_amount": { "default_value": 1 },
         "retraction_speed": { "default_value": 40 }
     }

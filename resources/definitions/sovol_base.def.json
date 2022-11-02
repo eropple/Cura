@@ -7,12 +7,13 @@
         "author": "ed3d.net",
         "manufacturer": "Sovol 3D",
         "file_formats": "text/x-gcode",
-        "has_variants": true,
-
+        
         "machine_extruder_trains": {
             "0": "sovol_base_extruder_0"
         },
 
+        "has_materials": true,
+        "has_variants": true,
         "has_machine_quality": true,
         "variants_name": "Nozzle Size",
 
@@ -62,6 +63,8 @@
         "wall_0_wipe_dist": { "value": 0.0 },      
         "retraction_amount": { "default_value": 3},
         "retraction_speed": { "default_value": 50},
-        "adhesion_type": { "value": "'skirt'" }
+        "adhesion_type": { "value": "'skirt'" },
+        "adaptive_layer_height_variation": { "value": 0.04 },
+        "adaptive_layer_height_variation_step": { "value": 0.04 }
     }
 }
