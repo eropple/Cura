@@ -1,0 +1,34 @@
+{
+    "version": 2,
+    "name": "Sovol-SV01PRO",
+    "inherits": "fdmprinter",
+    "metadata": {
+        "visible": true,
+        "author": "ed3d.net",
+        "manufacturer": "Sovol 3D",
+        "file_formats": "text/x-gcode",
+        "has_variants": true,
+        "has_machine_quality": false,
+        "preferred_quality_type": "draft",
+        "machine_extruder_trains": {
+            "0": "SV01PRO_extruder_0"
+        }
+    },
+
+    "overrides": {
+        "machine_name": { "default_value": "SV01PRO" },
+        "machine_head_with_fans_polygon": {
+            "default_value": [
+                [-44, 16],
+                [-44, -60],
+                [44, -60],
+                [44, 16]
+            ]
+        },
+    
+        "gantry_height": { "value": 33 },
+        "machine_depth": { "default_value": 240 },
+        "retraction_amount": { "default_value": 1 },
+        "retraction_speed": { "default_value": 40 }
+    }
+}
