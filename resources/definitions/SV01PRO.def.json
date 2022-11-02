@@ -19,6 +19,7 @@
 
     "overrides": {
         "machine_name": { "default_value": "SV01PRO" },
+        "quality_definition": "sovol_base",
 
         "machine_width": { "default_value": 280 },
         "machine_depth": { "default_value": 260 },

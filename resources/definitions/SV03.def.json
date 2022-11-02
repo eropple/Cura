@@ -10,6 +10,8 @@
         "has_variants": true,
         "has_machine_quality": true,
         "preferred_quality_type": "draft",
+        "preferred_variant_name": "0.4mm Nozzle",
+        "preferred_material": "generic_pla",
         "machine_extruder_trains": {
             "0": "SV03_extruder_0"
         }
@@ -17,6 +19,7 @@
 
     "overrides": {
         "machine_name": { "default_value": "SV03" },
+        "quality_definition": "sovol_base",
 
         "machine_width": { "default_value": 350 },
         "machine_depth": { "default_value": 350 },
