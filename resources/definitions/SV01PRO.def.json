@@ -10,6 +10,8 @@
         "has_variants": true,
         "has_machine_quality": false,
         "preferred_quality_type": "draft",
+        "preferred_variant_name": "0.4mm Nozzle",
+        "preferred_material": "generic_pla",
         "machine_extruder_trains": {
             "0": "SV01PRO_extruder_0"
         }
