@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "name": "Sovol-SV01PRO",
+    "name": "Sovol-SV06",
     "inherits": "sovol_base",
     "metadata": {
         "visible": true,
@@ -13,16 +13,16 @@
         "preferred_variant_name": "0.4mm Nozzle",
         "preferred_material": "generic_pla",
         "machine_extruder_trains": {
-            "0": "SV01PRO_extruder_0"
+            "0": "SV06_extruder_0"
         }
     },
 
     "overrides": {
-        "machine_name": { "default_value": "SV01PRO" },
+        "machine_name": { "default_value": "SV06" },
 
-        "machine_width": { "default_value": 280 },
-        "machine_depth": { "default_value": 260 },
-        "machine_height": { "default_value": 300 },
+        "machine_width": { "default_value": 220 },
+        "machine_depth": { "default_value": 220 },
+        "machine_height": { "default_value": 250 },
         "machine_head_with_fans_polygon": {
             "default_value": [
                 [-44, 16],
@@ -32,7 +32,7 @@
             ]
         },
     
-        "gantry_height": { "value": 33 },
+        "gantry_height": { "value": 25 },
         "retraction_amount": { "default_value": 1 },
         "retraction_speed": { "default_value": 40 }
     }
